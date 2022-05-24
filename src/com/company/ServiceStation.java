@@ -23,8 +23,8 @@ public class ServiceStation implements ServiceStationInterface {
 
     private void checkVehicle(Vehicle vehicle) {
         if (vehicle != null) {
-            System.out.println("Обслуживаем "  + vehicle.modelName);
-            for (int i = 0; i < vehicle.wheelsCount; i++) {
+            System.out.println("Обслуживаем "  + vehicle.getModelName());
+            for (int i = 0; i < vehicle.getWheelsCount(); i++) {
                 vehicle.updateTyre();
             }
         }

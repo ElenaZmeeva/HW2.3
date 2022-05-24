@@ -1,8 +1,8 @@
 package com.company;
 
 public class Vehicle {
-    public String modelName;
-    public int wheelsCount;
+    private String modelName;
+    private int wheelsCount;
 
     public Vehicle(String modelName, int wheelsCount) {
         this.modelName = modelName;
