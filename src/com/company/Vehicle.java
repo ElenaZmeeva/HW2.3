@@ -1,6 +1,6 @@
 package com.company;
 
-public class Vehicle {
+public abstract class Vehicle {
     private String modelName;
     private int wheelsCount;
 
@@ -25,7 +25,5 @@ public class Vehicle {
     public void setWheelsCount(int wheelsCount) {
         this.wheelsCount = wheelsCount;
     }
-    public void updateTyre() {
-        System.out.println("Меняем покрышку");
-    }
+    public abstract void updateTyre();
 }
