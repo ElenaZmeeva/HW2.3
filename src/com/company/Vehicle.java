@@ -26,4 +26,5 @@ public abstract class Vehicle {
         this.wheelsCount = wheelsCount;
     }
     public abstract void updateTyre();
+
 }
